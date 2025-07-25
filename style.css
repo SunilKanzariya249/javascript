@@ -1,0 +1,21 @@
+.main-div{
+    text-align: center;
+    border: 2px solid rgb(69, 61, 61);
+    border-radius: 5px;
+    
+    box-shadow: 5px 5px 5px hsl(0, 22%, 25%);
+    padding: 10px;
+    max-width: 300px;
+    background: rgba(6, 232, 232, 0.215);
+    margin : auto;
+}
+img{
+  border-radius:22px;  
+  max-width: 60%;
+  height: auto;
+}
+h1{
+    margin: 0px;
+    font-family: arial,sans-serif;
+    color: rgb(66, 123, 123);
+}
