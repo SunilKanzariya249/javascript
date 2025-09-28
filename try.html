@@ -5,12 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style1.css">
+    <style>
+        button{
+            background-color: blue;
+            text-align: center;
+            color: aqua;
+        }
+        
+    </style>
 </head>
 <body>
-    <input type="number" id="num1">
-    <input type="number" id="num2">
+    
+    <input type="number" id="num1" placeholder="enter a any number for multiply">
+    <input type="number" id="num2" placeholder="enter b any number to multiply">
     <button onclick="add()">addd</button>
     <p id="result">here is your result brooo!</p>
+    
     <script>
         function add(){
             let a = parseInt(document.getElementById("num1").value);

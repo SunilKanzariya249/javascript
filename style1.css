@@ -2,9 +2,9 @@ body{
     background-color: aquamarine;
 }
 #result{
-    font-size: medium;
+    font-size:large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border: 10px solid black;
+    border: 1px solid black;
     padding: 5px left;
     border-radius: 5px;
 }
