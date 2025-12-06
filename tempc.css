@@ -1,0 +1,12 @@
+body{
+    text-align: center;
+    color: rgba(6, 11, 16, 0.721);
+    
+    padding: 5em;
+    font-size: large;
+}
+#result{
+    font-size: 5em;
+    font-weight: bold;
+    font: 500;
+}

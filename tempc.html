@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tempc.css">
+</head>
+
+<body>
+    <form>
+        <h1>temperature convertor:</h1>
+        <input type="number" value="0" id="textbox"><br>
+        <input type="radio" id="tofarn" name="unit">
+        <label for="tofarn">calsius to fahrenheit</label><br>
+        <input type="radio" id="tocal" name="unit">
+
+        <label for="tocal">fahrenheit to calsius</label><br>
+        <button type="submit" onclick="convert()" id="btn">submit</button>
+        <p id="result"></p>
+    </form>
+    <script src="tempc.js"></script>
+
+</body>
+
+</html>
