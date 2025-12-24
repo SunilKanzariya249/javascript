@@ -4,7 +4,8 @@ const tocal = document.getElementById("tocal");
 const result = document.getElementById("result");
 
 let temp;
-function convert() {
+function convert(event) {
+     event.preventDefault(); 
     if (tofarn.checked) {
         temp = Number(textbox.value);
         temp = temp * 9 / 5 + 32;
@@ -16,6 +17,6 @@ function convert() {
          result.textContent = temp.toFixed(1) + "C";
     }
     else {
-        result.textContent = "enter unil";
+        result.textContent = "ENTER UNIT";
     }
 }
